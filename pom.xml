@@ -14,18 +14,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.7.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.google.code.gson</groupId>
-            <artifactId>gson</artifactId>
-            <version>2.10</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -43,21 +32,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>5.3.1</version>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/com.testzeus/Test_Zeus -->
         <dependency>
             <groupId>com.testzeus</groupId>
             <artifactId>Test_Zeus</artifactId>
             <version>1.0.2</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.2</version>
-            <scope>test</scope>
-        </dependency>
-
-
-
     </dependencies>
 
 </project>
