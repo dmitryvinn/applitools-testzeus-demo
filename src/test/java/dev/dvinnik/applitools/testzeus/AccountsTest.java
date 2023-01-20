@@ -12,7 +12,7 @@ public class AccountsTest extends BaseTest {
     private static final String TEST_ACCOUNT_NAME = "Test Account";
 
     @Test
-    public void createAccount() throws Exception {
+    public void findTestAccount() throws Exception {
 
         // Arrange
         final SFPageBase salesforcePage = new SFPageBase(driver);
@@ -33,9 +33,6 @@ public class AccountsTest extends BaseTest {
         salesforcePage.safeClick(testAccountItem);
 
         // Assert
-        driver.findElement(By.xpath("//button[text()='New Contact']"));
-        driver.findElement(By.xpath("//button[text()='New Case']"));
-        driver.findElement(By.xpath("//button[text()='New Note']"));
-
+        driver.findElement(By.xpath("//p[text()='Account Owner']"));
     }
 }

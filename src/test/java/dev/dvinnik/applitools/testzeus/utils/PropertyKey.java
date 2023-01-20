@@ -6,5 +6,7 @@ public enum PropertyKey {
     SECURITY_TOKEN,
     HOME_URL,
     CONSUMER_KEY,
-    CONSUMER_SECRET
+    CONSUMER_SECRET,
+
+    APPLITOOLS_API_KEY
 }
